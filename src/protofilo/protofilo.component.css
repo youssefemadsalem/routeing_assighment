@@ -1,0 +1,19 @@
+.portfolio-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+  }
+  .portfolio-item img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+  .portfolio-item:hover {
+    transform: scale(1.05);
+  }
+  .bg-pink { background-color: #ff7eb3; }
+  .bg-blue { background-color: #00cfff; }
+  .bg-black { background-color: #000; }
